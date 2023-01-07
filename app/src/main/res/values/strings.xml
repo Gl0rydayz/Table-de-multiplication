@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">Table de multiplication</string>
+    <string name="btn_reinitialiser">RÉINITIALISER</string>
+    <string name="btn_afficher">AFFICHER</string>
+    <string name="btn_quitter">QUITTER</string>
 </resources>
