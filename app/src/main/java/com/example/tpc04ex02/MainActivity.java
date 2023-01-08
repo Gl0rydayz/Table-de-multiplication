@@ -24,7 +24,10 @@ public class MainActivity extends AppCompatActivity {
         btn_reinitialiser.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                et_nombre.getText().clear();
+                Intent intent = getIntent();
+//                Intent intent = new Intent(MainActivity.this, MainActivity.class);
+                finish();
+                startActivity(intent);
             }
         });
 
