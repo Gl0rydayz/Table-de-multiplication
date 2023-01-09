@@ -44,6 +44,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:lines="11"
+        android:maxLines="11"
         android:text="\? * 0 = \?\n\? * 1 = \?\n\? * 2 = \?\n\? * 3 = \?\n\? * 4 = \?\n\? * 5 = \?\n\? * 6 = \?\n\? * 7 = \?\n\? * 8 = \?\n\? * 9 = \?\n\? * 10 = \?"
         android:textAppearance="@style/TextAppearance.AppCompat.Medium"
         app:layout_constraintBottom_toTopOf="@+id/btn_quitter"
